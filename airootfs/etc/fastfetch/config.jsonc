@@ -1,0 +1,35 @@
+{
+    "logo": {
+        "source": "/etc/fastfetch/ender_logo.txt",
+        "type": "file"
+    },
+    "display": {
+        "separator": ": "
+    },
+    "modules": [
+        {"type": "title", "format": "root@enderlinux"},
+        "separator",
+        {"type": "os", "format": "Ender Linux x86_64"},
+        "host",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "display",
+        "de",
+        "wm",
+        "theme",
+        "icons",
+        "font",
+        "cursor",
+        "terminal",
+        "cpu",
+        "gpu",
+        "memory",
+        "swap",
+        "disk",
+        "localip",
+        "locale",
+        "colors"
+    ]
+}
